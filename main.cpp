@@ -366,8 +366,8 @@ void do_movement() {
     else if (keys[GLFW_KEY_R]) { // If r is pressed
         camera.ResetCamera(); // Reset camera with callback
     }
-    else if (keys[GLFW_KEY_SPACE]) { // If r is pressed
-        sphereX += 0.01; // Nudge sphere into place
-        cout << "X = " << sphereX << endl;
-    }
+    // else if (keys[GLFW_KEY_SPACE]) { // If space is pressed
+    //     sphereX += 0.01; // Nudge sphere into place
+    //     cout << "X = " << sphereX << endl;
+    // }
 }
